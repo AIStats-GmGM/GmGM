@@ -56,8 +56,27 @@ of this project.  Then, run:
 mex -output eiglasso_joint eiglasso_joint_mex.cpp -lmwlapack
 ```
 
-We have tested this code on a Mac with an M1 processor, as well as on Linux (Ubuntu).
+We have tested this code on a Mac with and without an M1 processor, as well as on Linux (Ubuntu).
 The exact versions of the figures given in the paper were all generated on the Linux computer.
+
+### Troubleshooting
+
+If you get an error message that looks like:
+
+```
+ResolvePackageNotFound:
+    package::name=#.#.#
+```
+
+then the version of the dependency that we used for our tests is not available on your computer.
+If you delete the `=#.#.#` bit from the `environments.yml` file,
+this issue should go away (as you will no longer be requesting this
+specific version of the package, just any arbitrary version).
+
+If the error does not go away, that means the package is not available at all on your system.
+**This is rather unlikely!**  If it does, remove it from the `environments.yml` file and repeat
+until it works.  Most dependencies are for individual experiments on real-world data, rather than the algorithm
+itself, so doing this process will still allow you to replicate most experiments.
 
 ## Synthetic Data
 
