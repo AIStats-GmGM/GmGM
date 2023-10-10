@@ -1,8 +1,8 @@
 # GmGM: Gaussian multi-Graphical Model
 
 This repository contains the implementation of and experiments on
-our algorithm presented in the paper "GmGM: a fast Gaussian graphical
-model for multi-modal data".  (TODO: Add arXiv link, once its up)
+our algorithm presented in the paper "GmGM: a fast multi-axis Gaussian graphical
+model".  (TODO: Add arXiv link, once its up)
 
 It is meant to find graphs that represent data, in the multi-modal context.
 For example, consider the following dataset:
