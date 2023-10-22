@@ -1,4 +1,4 @@
-name: GmGM-Polyglot-intel
+name: GmGM
 channels:
   - bioconda
   - defaults
@@ -296,4 +296,4 @@ dependencies:
   - zstd=1.5.5=hd90d995_0
   - pip:
       - matlabengine==23.2.1
-prefix: /Users/REDACTEDUSERNAME/mambaforge/envs/GmGM-Polyglot-intel
+prefix: /Users/REDACTEDUSERNAME/mambaforge/envs/GmGM
