@@ -1,0 +1,12 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=mex 2020.4.7)  20 FEB 2023 18:05
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**eiglasso_joint eiglasso_joint_mex.cpp -lmwlapack
+
+! Emergency stop.
+<*> eiglasso_joint 
+                   eiglasso_joint_mex.cpp -lmwlapack
+End of file on the terminal!
+
+No pages of output.
