@@ -1,3 +1,5 @@
+WARNING: This branch represents old code that is unpolished.  For the cleaned code that exists in the final paper, please use the other branch.
+
 # GmGM: Gaussian multi-Graphical Model
 
 This repository contains the implementation of and experiments on
